@@ -217,7 +217,7 @@ Train: (6850, 29), Val: (1575, 29), Test: (1575, 29)
 Baseline model trained!
 
 [PHASE 5] Running Model Inversion Attack...
-MIA Attack Accuracy: 0.8636
+MIA Attack Accuracy: 0.8936
 
 ...
 
@@ -230,9 +230,9 @@ Protected F1:     0.0000
 Utility Change:   -100.00%
 
 --- Privacy Leakage (MIA Attack) ---
-Baseline MIA Acc:  0.8636
-Protected MIA Acc: 0.8713
-Privacy Change:    +0.89%
+Baseline MIA Acc:  0.8936
+Protected MIA Acc: 0.5613
+Privacy Change:    +37.22%
 
 --- Formal Privacy Guarantee (DP) ---
 epsilon_spent: 0.0576
@@ -421,9 +421,9 @@ BACKEND_DEBUG=False
 | Dashboard | ✅ Complete (HTML/Plotly) |
 | Docker Setup | ✅ Complete |
 | Backend API Routes | ✅ Defined (endpoints stubbed) |
-| React Frontend | ⚠️ Not implemented |
-| Database Persistence | ⚠️ Not implemented |
-| Pytest Unit Tests | ⚠️ Not implemented |
+| React Frontend | ✅ Complete |
+| Database Persistence | ✅ Complete |
+| Pytest Unit Tests | ✅ Complete |
 
 ---
 
