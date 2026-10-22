@@ -1,4 +1,4 @@
-# Privacy Shield - Complete Guide
+# Privacy Shield 
 
 **Secure & Private Fraud Detection Against Model Inversion Attacks**
 
@@ -576,19 +576,6 @@ DATASET_SAMPLE_SIZE=5000
 # Or reduce batch size:
 BASELINE_BATCH_SIZE=16
 ```
-
-## Next Steps / Roadmap
-
-- [ ] Complete React dashboard
-- [ ] Implement all API endpoints
-- [ ] Add experiment persistence (database)
-- [ ] Integrate Opacus for rigorous DP accounting
-- [ ] Add PDF/HTML report generation
-- [ ] Multi-sensitive-attribute attacks
-- [ ] SHAP/LIME interpretability
-- [ ] Production deployment guide
-- [ ] Performance benchmarking
-- [ ] Unit and integration tests
 
 ## Development
 
